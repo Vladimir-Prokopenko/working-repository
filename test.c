@@ -4,9 +4,12 @@
 int main()
 
 {
-    int x = 5;
-    
-    printf("%d", 3 + 2358 % 10);
+    // Чи ідентичні ці записи i += 1 та i++
+    int i = 1;
+    // printf("%d\t%d\n", i += 1, i++);
+    // printf("%d\t%d\n", i += 1, i += 1);
+    // printf("%d\t%d\n", i++, i++);
+    printf("%d\t%d\n", i++, i += 1);
 
     return 0;
 }
