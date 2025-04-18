@@ -1,3 +1,1 @@
-
-    x += x -= x *= 2;
-    printf("%d", x);
+Hello World!
