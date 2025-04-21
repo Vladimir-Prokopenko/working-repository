@@ -3,15 +3,10 @@
 int main()
 
 {
-    // Що виведеться на екрані якщо ввести "2025Year."?
-    // char str[10];
-    // puts("Введіть слово: ");
-    // scanf("%[^a-z]", str);
-    // printf("Ви ввели: %s\n", str);
-    // 2025Y
-    // 2025
-    // 2025Year.
-    // Year
+    int x, y, z;
+
+    printf("%d", scanf("%d %d %d", &x, &y, &z));
+    // printf("res = %d, x = %d", scanf("%d", &x), x);
 
     return 0;
 }
