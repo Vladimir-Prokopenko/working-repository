@@ -1,12 +1,12 @@
 #include <stdio.h>
+#include <math.h>
+#include <stdbool.h>
 
 int main()
-
 {
-    int x, y, z;
-
-    printf("%d", scanf("%d %d %d", &x, &y, &z));
-    // printf("res = %d, x = %d", scanf("%d", &x), x);
+    int x = 0;
+    int y = x ? ++x : x++;
+    printf("%d %d\n", x, y);
 
     return 0;
 }
