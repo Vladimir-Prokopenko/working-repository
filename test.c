@@ -4,9 +4,7 @@
 
 int main()
 {
-    int x = 0;
-    int y = x ? ++x : x++;
-    printf("%d %d\n", x, y);
+    int i = 3;
 
-    return 0;
+    printf("%d", (++i + i++ * 2));
 }
