@@ -4,7 +4,9 @@
 
 int main()
 {
-    int i = 3;
+    float f;
 
-    printf("%d", (++i + i++ * 2));
+    scanf("%*d%f", &f);
+    
+    printf("%.2f", f);
 }
