@@ -4,9 +4,16 @@
 
 int main()
 {
-    float f;
+    int d = 10;
+    int *gpt = &d;
 
-    scanf("%*d%f", &f);
-    
-    printf("%.2f", f);
+    printf("gpt = %p, *gpt = %d, d = %d\n", gpt, *gpt, d);
+
+    *gpt = 75432;
+    printf("gpt = %p, *gpt = %d, d = %d\n", gpt, *gpt, d);
+
+    *gpt = 1;
+    printf("gpt = %p, *gpt = %d, d = %d\n", gpt, *gpt, d);
+
+    return 0;
 }
