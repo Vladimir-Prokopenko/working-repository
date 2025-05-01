@@ -4,16 +4,20 @@
 
 int main()
 {
-    int d = 10;
-    int *gpt = &d;
+    // system("chcp 65001");
 
-    printf("gpt = %p, *gpt = %d, d = %d\n", gpt, *gpt, d);
-
-    *gpt = 75432;
-    printf("gpt = %p, *gpt = %d, d = %d\n", gpt, *gpt, d);
-
-    *gpt = 1;
-    printf("gpt = %p, *gpt = %d, d = %d\n", gpt, *gpt, d);
+    switch (2)
+    {
+    case 0:
+        printf("Odd\n");
+        break;
+    default:
+        printf("Default\n");
+        break;
+    case 1:
+        printf("Even\n");
+        break;
+    }
 
     return 0;
 }
