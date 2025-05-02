@@ -4,20 +4,13 @@
 
 int main()
 {
-    // system("chcp 65001");
+    system("chcp 65001");
 
-    switch (2)
-    {
-    case 0:
-        printf("Odd\n");
-        break;
-    default:
-        printf("Default\n");
-        break;
-    case 1:
-        printf("Even\n");
-        break;
-    }
+    // Користувач вводить тризначне число. Обчисліть та виведіть суму його цифр
+
+    // int hundreds = (num / 10^2) % 10;
+    // int tens = (num / 10^1) % 10;
+    // int ones = (num / 10^0) % 10;
 
     return 0;
 }
