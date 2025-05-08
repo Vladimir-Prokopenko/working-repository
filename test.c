@@ -2,16 +2,15 @@
 #include <math.h>
 #include <stdbool.h>
 
-#define VALUE 5
-
 int main()
 
 {
-    #if VALUE
-        printf("High\n");
-    #else
-        printf("Low\n");
-    #endif
+    // system("chcp 65001");
 
-    return 0;
+    int i, j = 10;
+    for (i = 0; i < 3; i++)
+    {
+
+        printf("%d ", ++j);
+    }
 }
