@@ -1,22 +1,17 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdbool.h>
-int x;
+
+#define SQUARE(x) (x * x)
 
 int main()
 
 {
     // system("chcp 65001");
+
     int a = 5;
-    if (++a > 5 && ++a > 6 && a = 0)
-    {
-        printf("Умова істина\n");
-    }
-    else
-    {
-        printf("Умова хибна\n");
-    }
-    printf("Кінцеве значення a: %d\n", a);
+    int result = SQUARE(a + 1);
+    printf("%d ", result);
 
     return 0;
 }
