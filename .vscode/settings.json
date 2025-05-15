@@ -62,6 +62,7 @@
   "files.associations": {
     "stdbool.h": "c",
     "string.h": "c",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "math.h": "c"
   }
 }
