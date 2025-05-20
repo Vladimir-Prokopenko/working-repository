@@ -4,9 +4,13 @@
 
 int main(void)
 {
-    char arr[] = {1, 2, 3, 4, 5};
-    int *ptr = arr[1];
-    printf("%d\n", sizeof(*ptr));
+    int a = 300;
 
-    return 0;
+    int *const ptr = &a;
+
+//   ptr = 222;
+
+  printf("%d\n", ptr);
+
+  return 0;
 }
