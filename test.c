@@ -4,13 +4,13 @@
 
 int main(void)
 {
-    int a = 300;
+  // system("chcp 65001");
 
-    int *const ptr = &a;
+  char d = 10;
 
-//   ptr = 222;
-
-  printf("%d\n", ptr);
+  char *gpt;
+  
+  printf("%d\n", sizeof(gpt));
 
   return 0;
 }
