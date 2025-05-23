@@ -6,11 +6,11 @@ int main(void)
 {
   // system("chcp 65001");
 
-  char d = 10;
+  short d = 777;
 
-  char *gpt;
+  int *gpt = &d;
   
-  printf("%d\n", sizeof(gpt));
+  printf("%d\n", sizeof(d));
 
   return 0;
 }
