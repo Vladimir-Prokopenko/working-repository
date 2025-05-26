@@ -3,15 +3,12 @@
 #include <stdbool.h>
 
 int main(void)
+
 {
-  // system("chcp 65001");
 
-  int d = 7777;
-
-  short *gpt = &d;
-
-  // printf("%d\n", sizeof(*gpt));
-  printf("%d\n", *(gpt + 1));
+  int arr[5] = {1, 2, 3, 4, 5};
+  int *ptr = &arr[2];
+  printf("%d", ptr[1]);
 
   return 0;
 }
