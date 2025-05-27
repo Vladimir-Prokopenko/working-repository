@@ -2,13 +2,19 @@
 #include <math.h>
 #include <stdbool.h>
 
+
 int main(void)
 
 {
-
-  int arr[5] = {1, 2, 3, 4, 5};
-  int *ptr = &arr[2];
-  printf("%d", ptr[1]);
+  int marks[13];
+  marks[2] = 4;
+  marks[0] = 2 * 3;
+  marks[12] = 7 - 2;
+  marks[13] = 1;
+  int x = marks[2];
+  printf("x = %d\n", x);
+  int y = marks[13];
+  printf("y = %d\n", y);
 
   return 0;
 }
