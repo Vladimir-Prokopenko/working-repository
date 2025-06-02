@@ -9,8 +9,10 @@ int main(void)
   short number = 777;
 
   char *ptr_num = &number;
-  
-  printf("%d%d\n", *ptr_num, *(ptr_num + 1));
+
+  ptr_num = 6422301;
+
+  printf("%d\n", *ptr_num);
 
   return 0;
 }
