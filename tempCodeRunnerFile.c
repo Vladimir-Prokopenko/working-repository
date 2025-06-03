@@ -1,1 +1,2 @@
-  printf("Even\n");
+
+  return 0;
