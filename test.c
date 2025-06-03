@@ -6,14 +6,7 @@ int main(void)
 
 {
 
-  int number = 300;
-
-  short *ptr;
-
-  ptr = &number;
-
-  *ptr = 100;
-
+  char number = 300;
   printf("%d\n", number);
 
   return 0;
