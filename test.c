@@ -6,8 +6,15 @@ int main(void)
 
 {
 
-  char number = 300;
-  printf("%d\n", number);
+  short number = 300;
+
+  void *ptr_sh_num = &number;
+
+  *(int *)ptr_sh_num = 222;
+
+  char *p = &number;
+
+  printf("%d\n", *(p + 0));
 
   return 0;
 }
