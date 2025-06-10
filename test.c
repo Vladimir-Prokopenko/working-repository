@@ -6,13 +6,13 @@ int main(void)
 
 {
 
-  int number = 300;
+  short number = 300;
 
-  int *ptr_num = &number;
+  void *ptr_sh_num = &number;
 
-  ptr_num = 777;
+  *ptr_sh_num = 2;
   
-  printf("%d\n", ptr_num + 1);
+  printf("%d\n", number);
 
   return 0;
 }
