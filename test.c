@@ -5,14 +5,14 @@
 int main(void)
 
 {
+  // system("chcp 65001");
 
-  short number = 300;
-
-  void *ptr_sh_num = &number;
-
-  *ptr_sh_num = 2;
-  
-  printf("%d\n", number);
+  int num = 777;
+  char *ptr = &num;
+  for (int i = 0; i < 6; i += 1)
+  {
+    printf("%d ", *(ptr + i));
+  }
 
   return 0;
 }
