@@ -7,12 +7,17 @@ int main(void)
 {
   // system("chcp 65001");
 
-  int num = 777;
-  char *ptr = &num;
-  for (int i = 0; i < 6; i += 1)
-  {
-    printf("%d ", *(ptr + i));
-  }
+#define NUMBER 3
+
+  int marks[NUMBER] = {31, 25, 88, 62};
+
+  int x = marks[3];
+
+  printf("%d\n", x);
+
+  for (int i = 0; i < 4; i += 1)
+
+    printf("%d ", marks[i]);
 
   return 0;
 }
